@@ -13,5 +13,8 @@ int main()
 
   s = box(4,3);
   cout << s << endl;
+  cout << "\n -------------\n\n";
+  s = triangle(4);
+  cout << s << endl;
   return 0;
 }

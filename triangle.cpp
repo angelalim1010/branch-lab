@@ -9,7 +9,7 @@ using std::string;
 string triangle(int height){
   string s = "";
   for (int i = 0; i < height; ++i) {
-    for (int j = 0; j < width; j++) {
+    for (int j = 0; j <= i; j++) {
       s=s+"*";
     }
     s=s+"\n";
